@@ -1,0 +1,32 @@
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contents_item {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.contents1_item {
+  max-width: calc(25% - 20px * 3 / 4);
+}
+
+.contents2 {
+  margin-top: 50px;
+}
+.contents2_item {
+  max-width: calc(50% - 20px * 1 / 2);
+}
+
+.contents3 {
+  margin-top: 50px;
+}
+.contents3_item {
+  max-width: calc(16.66666% - 20px * 5 / 6);
+}
